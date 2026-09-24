@@ -1,0 +1,26 @@
+{%- macro blogcard(params) -%}
+  <div class="space-x-6 bg-opacity-50 shadow-2xl bg-secondary rounded-2xl group sm:flex">
+    <img src="{{ params.post.image }}" alt="art cover"   class="object-fill w-full h-56 rounded-t-lg sm:rounded-tr-none sm:rounded-bl-lg sm:h-full sm:w-5/12" width="640" height="360">
+    <div class="p-5 pl-0 my-auto sm:w-7/12">
+      <div class="space-y-4 ">
+        <div class="space-y-4">
+          <h3 class="text-4xl font-bold font-oswald">{{ params.post.title }}</h3>
+          <p class="font-semibold">{{ params.post.description }}</p>
+        </div >
+        <div class="hidden md:flex items-start space-x-2">
+          {% for tags in params.post.tags | reverse %}
+            <div class="badge badge-primary p-3">{{tags}}</div>
+          {% endfor %}
+        </div>
+        <div class="flex justify-end">
+          {% if params.url %}
+            <a href="{{ params.url }}" class="btn btn-primary ">Seguir Leyendo</a>
+          {% else %}
+            <a href="{{ params.post.url }}" class="btn btn-primary ">Seguir Leyendo</a>
+          {% endif %}
+
+        </div>
+      </div>
+    </div>
+  </div>
+{%- endmacro -%}

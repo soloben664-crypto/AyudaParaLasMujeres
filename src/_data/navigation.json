@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "text": "Inicio",
+      "url": "/",
+      "icon": "/static/img/home.svg"
+    },
+    {
+      "text": "Blog",
+      "url": "/blog",
+      "icon": "/static/img/book-open.svg"
+    },
+    {
+      "text": "Nosotros",
+      "url": "/nosotros",
+      "icon": "/static/img/user.svg"
+    },
+    {
+      "text": "Contacto",
+      "url": "/contacto",
+      "icon": "/static/img/mail.svg"
+    }
+  ]
+}

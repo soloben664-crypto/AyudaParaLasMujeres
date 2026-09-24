@@ -1,0 +1,324 @@
+---
+eleventyExcludeFromCollections: true
+layout: default-layout
+title: "Testimonios - Ayuda Para La Mujer"
+description: "Testimonios de mujeres que han enfrentado situaciones de violencia."
+path: "testimonios"
+---
+
+<!-- ====================================================== -->
+<!-- ENCABEZADO -->
+<!-- ====================================================== -->
+
+<section class="px-6 pt-20 pb-16 lg:pt-24 lg:pb-20 mx-6 mb-10 ">
+
+  <div class="max-w-5xl mx-auto text-center">
+
+    <h1 class="mb-6 text-6xl font-bold font-oswald lg:text-8xl text-primary">
+      Testimonios
+    </h1>
+
+    <p class="max-w-4xl mx-auto text-xl font-medium leading-relaxed lg:text-2xl">
+      Historias reales de mujeres que decidieron compartir su experiencia,
+      reconocer lo vivido y dar un paso hacia una vida libre de violencia.
+    </p>
+
+    <p class="max-w-3xl mx-auto mt-6 text-lg leading-relaxed italic ">
+      Cada testimonio es una muestra de valentía, fuerza y esperanza.
+    </p>
+
+  </div>
+
+</section>
+
+
+<!-- ====================================================== -->
+<!-- TESTIMONIOS -->
+<!-- ====================================================== -->
+
+<section class="px-6 pb-24">
+
+  <div class="max-w-6xl mx-auto space-y-12 lg:space-y-16">
+
+
+    <!-- ================================================== -->
+    <!-- TESTIMONIO 1 - SILVIA -->
+    <!-- VIDEO IZQUIERDA / TEXTO DERECHA -->
+    <!-- ================================================== -->
+
+    <article
+      class="grid items-center gap-8 p-6 shadow-lg lg:grid-cols-2 lg:gap-12 lg:p-10 bg-base-100 rounded-3xl"
+    >
+
+      <!-- VIDEO -->
+
+      <div class="w-full">
+
+        <div class="p-3 shadow-md bg-secondary rounded-2xl">
+
+          <video
+            class="w-full rounded-xl"
+            controls
+            preload="metadata"
+          >
+            <source
+              src="/static/videos/Video Silvia.mp4"
+              type="video/mp4"
+            >
+
+            Tu navegador no puede reproducir este video.
+
+          </video>
+
+        </div>
+
+      </div>
+
+
+      <!-- INFORMACIÓN -->
+
+      <div class="px-2 text-center lg:px-4 lg:text-left">
+
+        <span
+          class="inline-block px-4 py-2 text-sm font-bold tracking-widest uppercase rounded-full bg-secondary text-primary"
+        >
+          Testimonio 01
+        </span>
+
+        <h2 class="mt-5 text-4xl font-bold font-oswald lg:text-5xl text-primary">
+          Silvia
+        </h2>
+
+        <div class="w-16 h-1 mx-auto my-6 lg:mx-0 bg-primary"></div>
+
+        <p class="text-lg leading-relaxed lg:text-xl">
+          Una historia de valentía y superación frente a una situación
+          de violencia.
+        </p>
+
+      </div>
+
+    </article>
+
+
+    <!-- ================================================== -->
+    <!-- TESTIMONIO 2 - NOEMÍ -->
+    <!-- TEXTO IZQUIERDA / VIDEO DERECHA -->
+    <!-- ================================================== -->
+
+    <article
+      class="grid items-center gap-8 p-6 shadow-lg lg:grid-cols-2 lg:gap-12 lg:p-10 bg-base-100 rounded-3xl"
+    >
+
+      <!-- INFORMACIÓN -->
+
+      <div class="px-2 text-center lg:order-1 lg:px-4 lg:text-left">
+
+        <span
+          class="inline-block px-4 py-2 text-sm font-bold tracking-widest uppercase rounded-full bg-secondary text-primary"
+        >
+          Testimonio 02
+        </span>
+
+        <h2 class="mt-5 text-4xl font-bold font-oswald lg:text-5xl text-primary">
+          Noemí
+        </h2>
+
+        <div class="w-16 h-1 mx-auto my-6 lg:mx-0 bg-primary"></div>
+
+        <p class="text-lg leading-relaxed lg:text-xl">
+          Una historia que muestra la importancia de reconocer la violencia
+          y buscar una vida diferente.
+        </p>
+
+      </div>
+
+
+      <!-- VIDEO -->
+
+      <div class="w-full lg:order-2">
+
+        <div class="p-3 shadow-md bg-secondary rounded-2xl">
+
+          <video
+            class="w-full rounded-xl"
+            controls
+            preload="metadata"
+          >
+            <source
+              src="/static/videos/Video Noemí.mp4"
+              type="video/mp4"
+            >
+
+            Tu navegador no puede reproducir este video.
+
+          </video>
+
+        </div>
+
+      </div>
+
+    </article>
+
+
+    <!-- ================================================== -->
+    <!-- TESTIMONIO 3 - MARIANA -->
+    <!-- VIDEO IZQUIERDA / TEXTO DERECHA -->
+    <!-- ================================================== -->
+
+    <article
+      class="grid items-center gap-8 p-6 shadow-lg lg:grid-cols-2 lg:gap-12 lg:p-10 bg-base-100 rounded-3xl"
+    >
+
+      <!-- VIDEO -->
+
+      <div class="w-full">
+
+        <div class="p-3 shadow-md bg-secondary rounded-2xl">
+
+          <video
+            class="w-full rounded-xl"
+            controls
+            preload="metadata"
+          >
+            <source
+              src="/static/videos/Video Mariana.webm"
+              type="video/webm"
+            >
+
+            Tu navegador no puede reproducir este video.
+
+          </video>
+
+        </div>
+
+      </div>
+
+
+      <!-- INFORMACIÓN -->
+
+      <div class="px-2 text-center lg:px-4 lg:text-left">
+
+        <span
+          class="inline-block px-4 py-2 text-sm font-bold tracking-widest uppercase rounded-full bg-secondary text-primary"
+        >
+          Testimonio 03
+        </span>
+
+        <h2 class="mt-5 text-4xl font-bold font-oswald lg:text-5xl text-primary">
+          Mariana
+        </h2>
+
+        <div class="w-16 h-1 mx-auto my-6 lg:mx-0 bg-primary"></div>
+
+        <p class="text-lg leading-relaxed lg:text-xl">
+          Una experiencia de lucha, fortaleza y esperanza para comenzar
+          una nueva etapa.
+        </p>
+
+      </div>
+
+    </article>
+
+
+    <!-- ================================================== -->
+    <!-- TESTIMONIO 4 - JUANA -->
+    <!-- TEXTO IZQUIERDA / VIDEO DERECHA -->
+    <!-- ================================================== -->
+
+    <article
+      class="grid items-center gap-8 p-6 shadow-lg lg:grid-cols-2 lg:gap-12 lg:p-10 bg-base-100 rounded-3xl"
+    >
+
+      <!-- INFORMACIÓN -->
+
+      <div class="px-2 text-center lg:order-1 lg:px-4 lg:text-left">
+
+        <span
+          class="inline-block px-4 py-2 text-sm font-bold tracking-widest uppercase rounded-full bg-secondary text-primary"
+        >
+          Testimonio 04
+        </span>
+
+        <h2 class="mt-5 text-4xl font-bold font-oswald lg:text-5xl text-primary">
+          Juana
+        </h2>
+
+        <div class="w-16 h-1 mx-auto my-6 lg:mx-0 bg-primary"></div>
+
+        <p class="text-lg leading-relaxed lg:text-xl">
+          Una historia de resiliencia y del camino hacia una vida
+          libre de violencia.
+        </p>
+
+      </div>
+
+
+      <!-- VIDEO -->
+
+      <div class="w-full lg:order-2">
+
+        <div class="p-3 shadow-md bg-secondary rounded-2xl">
+
+          <video
+            class="w-full rounded-xl"
+            controls
+            preload="metadata"
+          >
+            <source
+              src="/static/videos/Video Juana.mp4"
+              type="video/mp4"
+            >
+
+            Tu navegador no puede reproducir este video.
+
+          </video>
+
+        </div>
+
+      </div>
+
+    </article>
+
+
+  </div>
+
+</section>
+
+
+<!-- ====================================================== -->
+<!-- FRASE FINAL -->
+<!-- ====================================================== -->
+
+<section class="px-6 py-20 bg-secondary">
+
+  <div class="max-w-4xl mx-auto text-center">
+
+    <h2 class="mb-6 text-5xl font-bold font-oswald lg:text-6xl text-primary">
+      Cada historia importa
+    </h2>
+
+    <p class="text-xl leading-relaxed lg:text-2xl">
+      Compartir lo vivido puede ayudar a que otras mujeres reconozcan
+      que no están solas y que existen caminos para salir adelante.
+    </p>
+
+  </div>
+
+</section>
+
+
+<!-- ====================================================== -->
+<!-- BOTÓN DE AYUDA -->
+<!-- ====================================================== -->
+
+<section class="px-6 py-16 text-center">
+
+  <a
+    href="/contacto/"
+    class="btn btn-primary btn-wide btn-lg"
+  >
+    BUSCAR AYUDA
+  </a>
+
+</section>

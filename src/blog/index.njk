@@ -1,0 +1,31 @@
+---
+eleventyExcludeFromCollections: true
+layout: default-layout
+title: "Blog - Ayuda Para La Mujer"
+description: "Compartir la experiencia y aprender de otras experiencias de mujeres víctimas de violencia intrafamiliar o de pareja, que alienten a la motivación y fuerza de las mujeres en situaciones semejantes."
+---
+<img src="/static/img/banner-1.webp"  width="1900" height="570"/>
+
+<section class="mt-15">
+  <div class="py-16">
+    <div class="container px-12 mx-auto ">
+      {%- from "../_includes/components/blogcard.njk" import blogcard -%}
+      <div class="text-stone-950 ">
+        <div class="pb-10 text-center">
+          <p class="text-primary font-oswald uppercase">Blog</p>
+          <h1 class="text-4xl font-oswald mb-4">Empoderamiento Femenino a través de nuestra<br/>
+            <span class="text-5xl text-primary">Inspiradora Comunidad</span>
+          </h1>
+          <div class="text-xl">
+            <p >Descubre historias de mujeres fuertes y valientes que han superado desafíos. En nuestro blog, compartimos consejos, experiencias y recursos para empoderar a todas las mujeres. Únete a nuestra comunidad y encuentra el apoyo que necesitas para alcanzar tus metas.</p>
+          </div>
+        </div>
+      </div>
+      <div class="grid gap-12">
+        {% for post in collections.all | reverse %}
+          {{ blogcard({ post: post.data, url: post.url })}}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

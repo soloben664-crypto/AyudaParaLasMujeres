@@ -1,0 +1,209 @@
+---
+eleventyExcludeFromCollections: true
+layout: default-layout
+title: "Inicio - Ayuda Para La Mujer"
+description: "Home Desc"
+path: "home"
+---
+
+<div
+  class="min-h-screen hero"
+  style="background-image: url('static/img/hero-4.webp')"
+>
+  <div class=""></div>
+
+  <div class="text-center hero-content text-neutral-content">
+    <div class="max-w-3xl">
+      <h1 class="mb-5 font-bold text-base-100 text-8xl lg:text-9xl font-oswald">
+        AYUDA PARA LA MUJER
+      </h1>
+
+      <p class="mb-5 text-2xl font-medium text-base-200 font-oswald">
+        Si vencí al maltrato, soy capaz de todo.
+      </p>
+
+      <a href="/blog" class="btn btn-primary btn-wide btn-xl">
+        Blog
+      </a>
+    </div>
+  </div>
+</div>
+
+<section class="mx-4 my-16">
+  <div class="container m-auto">
+
+    <div class="flex flex-wrap items-center justify-center mb-5">
+      <h2 class="text-5xl font-bold text-center font-oswald">
+        Si vencí al maltrato, soy capaz de todo.
+      </h2>
+    </div>
+
+    <div class="flex flex-wrap items-center justify-center gap-4">
+
+      <div class="bg-opacity-50 shadow-xl bg-secondary card w-96">
+        <div class="items-center card-body">
+
+          <h3 class="text-3xl font-bold text-center font-oswald card-title text-primary">
+            Era celoso y posesivo, me hizo mucho daño emocional
+          </h3>
+
+          <p class="font-semibold text-justify lg:mx-aut">
+            Hola, soy Juana, tengo 23 años, actualmente estoy estudiando,
+            además de trabajar de estilista. Mi ex trabaja en el aeropuerto,
+            documentando maletas, es profesionista, contador, tiene 20 años.
+            La situación económica de mi familia es buena, nivel medio-alto,
+            igual en su caso. Les contaré un poco de mi historia de vida.
+            La situación económica de mi familia es buena, nivel medio-alto,
+            igual en su caso. Les contaré un poco de mi historia de vida.
+            Viví una infancia de Bullying dentro de mi familia provocada por
+            mis hermanos, me afectó aún más por la sobreprotección de mis
+            padres, por el hecho de ser mujer.
+          </p>
+
+          <div class="card-actions">
+            <button class="btn btn-primary">
+              LEER HISTORIA COMPLETA
+            </button>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="my-auto">
+        <img
+          src="static/img/blog-img-2.webp"
+          alt="Historia de una mujer"
+          class="h-64 rounded-lg"
+          width="455"
+          height="256"
+        >
+
+        <img
+          src="static/img/blog-img-5.webp"
+          alt="Testimonio de una mujer"
+          class="h-64 mt-4 rounded-lg"
+          width="455"
+          height="256"
+        >
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<img
+  class="w-full"
+  src="/static/img/banner-9.webp"
+  alt="Ayuda para la mujer"
+  width="1900"
+  height="670"
+/>
+
+<section class="mx-4 my-16">
+  <div class="container m-auto">
+
+    <div class="mb-12 space-y-2 text-center">
+      <h3 class="mb-10 text-6xl font-bold lg:text-7xl font-oswald">
+        Historias más vistas...
+      </h3>
+
+      <p class="text-2xl font-semibold lg:mx-auto">
+        En este espacio, te presentamos las historias más inspiradoras de
+        mujeres que han superado situaciones de violencia familiar y han
+        logrado salir adelante. Son historias de lucha, coraje y resiliencia
+        que han tocado el corazón de muchas personas y que han servido de
+        inspiración para otras mujeres que enfrentan situaciones similares.
+      </p>
+    </div>
+
+    <div class="grid gap-12">
+      {%- from "./_includes/components/blogcard.njk" import blogcard -%}
+
+      {% for item in BlogPreview.links %}
+        {{ blogcard({ post: item })}}
+      {% endfor %}
+    </div>
+
+  </div>
+</section>
+
+<!-- TESTIMONIOS -->
+<section class="px-4 py-20 bg-secondary">
+  <div class="container mx-auto text-center">
+
+    <div class="max-w-4xl mx-auto">
+
+      <h3 class="mb-6 text-5xl font-bold lg:text-6xl font-oswald text-primary">
+        Testimonios que inspiran
+      </h3>
+
+      <p class="mb-8 text-xl font-medium lg:text-2xl">
+        Cada historia es diferente, pero todas tienen algo en común:
+        la valentía de reconocer lo vivido y dar un paso hacia una vida
+        libre de violencia.
+      </p>
+
+      <a
+        href="/testimonios"
+        class="btn btn-primary btn-wide btn-lg"
+      >
+        VER TESTIMONIOS
+      </a>
+
+    </div>
+
+  </div>
+</section>
+<!-- MENSAJE FINAL -->
+
+<section class="max-w-4xl mx-auto px-6 py-12">
+
+  <div class="bg-fuchsia-50/70 border-l-4 border-fuchsia-800 rounded-r-2xl px-8 py-10 shadow-sm mt-5">
+
+    <!-- Texto introductorio -->
+    <p class="text-lg md:text-xl leading-relaxed text-gray-700 italic text-justify">
+      Muchas víctimas deciden dar otra oportunidad a quien las maltrata,
+      con una idea un tanto distorsionada de que el perdón de dichos actos
+      o el arrepentimiento que muchos maltratadores manifiestan tras el acto
+      de abuso es muestra de su amor.
+    </p>
+
+    <p class="text-lg md:text-xl leading-relaxed text-gray-700 italic text-justify mt-6">
+      Pero permitir y perdonar dichos actos una y otra vez solo lleva a repetir
+      un patrón de manera continuada, sin que nada cambie, haciendo que se
+      perpetúe la violencia contra ellas.
+    </p>
+
+    <!-- Separador -->
+    <div class="flex items-center gap-4 my-8">
+      <div class="h-px flex-1 bg-fuchsia-200"></div>
+      <span class="text-2xl text-fuchsia-800">❝</span>
+      <div class="h-px flex-1 bg-fuchsia-200"></div>
+    </div>
+
+    <!-- Cita -->
+    <blockquote class="text-lg md:text-xl leading-relaxed text-gray-800 font-medium text-center">
+      “Es muy común que las mujeres piensen que soportar el maltrato y la
+      crueldad y luego perdonar y olvidar es una muestra de compromiso y amor.
+      Pero cuando amamos bien sabemos que la única respuesta sana y amorosa
+      al abuso es alejarnos de quien nos hace daño.”
+    </blockquote>
+
+    <!-- Autora -->
+    <div class="text-center mt-8">
+
+      <div class="w-16 h-1 bg-fuchsia-800 mx-auto rounded-full mb-4"></div>
+
+      <h4 class="text-2xl md:text-3xl font-bold text-fuchsia-900">
+        Bell Hooks
+      </h4>
+
+      <p class="text-sm md:text-base text-gray-600 mt-1">
+        Escritora feminista y activista
+      </p>
+
+      </div>
+
+  </div>
+
+</section>
